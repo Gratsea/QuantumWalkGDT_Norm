@@ -115,7 +115,7 @@ def func(z) :
     for i in range(0,2,1):
         q=0
         for j in range(0,4,1): 
-            Phi_internal_reshaped[i][j]= Phi_internal[i+q]
+            Phi_internal_reshaped[i][j]= Phi_internal[i+q][0]
             q +=2
 
     print ("Phi_internal_reshaped",Phi_internal_reshaped)
